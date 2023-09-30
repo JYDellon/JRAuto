@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1bc0360062.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/styleRegister.css">
+    <link rel="shortcut icon" href="../IMG_JR/J(1)-depositphotos-bgremover.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="brand"><img src="../IMG_JR/JR_AUTO_LOGO-removebg-preview copy.png" alt="Logo JR AUTO"></a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="../index.html" class="nav-item">Accueil</a>
+                <a href="./prestation.html" class="nav-item">Nos prestations</a>
+                <a href="./contact.html" class="nav-item">Nous contacter</a>
+                <a href="./login.html" class="nav-item">Connexion</a>
+                <a href="./register.html" class="nav-item active">Enregistrement</a>
+                <a href="./planning.html" class="nav-item">Prise de RdV</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="titre">
+            <h1>S'ENREGISTRER</h1>
+        </div>
+        <div class="informations">
+            <form action="#">
+                <div class="identifiant1">
+                    <label for="id" id="id">Identifiant</label>
+                </div>  
+                <div class="identifiant2"> 
+                    <input type="text" id="identifiant" placeholder="Saisissez votre identifiant" required>
+                </div> 
+                <div class="mdp1">
+                    <label for="password" id="MdeP1">Mot de passe</label>
+                </div>
+                <div class="mdp2">
+                    <input type="password" id="password" placeholder="MdP" required>
+                </div>
+                <div class="mdp3">
+                    <label for="password" id="MdeP2">Confirmation du Mot de passe</label>
+                </div>
+                <div class="mdp4">
+                    <input type="password" id="password" placeholder="MdP" required>
+                </div>
+                <div id="submit">
+                    <input type="submit" id="ital" value="Valider"> 
+                 </div>
+            </form>
+        </div>
+
+    </div>
+
+
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <img src="../IMG_JR/JR_AUTO_LOGO-removebg-preview.png" alt="LOGO JR AUTO">
+	
+				<p class="footer-links">
+					<a href="../index.html">Accueil</a>
+					|
+					<a href="prestation.html">Nos prestations</a>
+					|
+					<a href="contact.html">Nous contacter</a>
+					|
+					<a href="login.html">Connexion</a>
+					|
+					<a href="register.html">Enregistrement</a>
+					|
+					<a href="planning.html">Prise de RDV</a>
+				</p>
+
+            <p class="footer-company-name">Copyright © 2023 <strong>Jean-Yves DELLON</strong> All rights reserved</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Rue Étienne Dolet</span>
+                    Vendin-le-Vieil</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>06 59 72 13 48</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:sagar00001.co@gmail.com">jrauto5962@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.086898892836!2d2.8633911770790137!3d50.47976906522012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dd2e1f85f612b5%3A0x3894c2a8b27026a5!2sRue%20Etienne%20Dolet%2C%2062880%20Vendin-le-Vieil!5e0!3m2!1sfr!2sfr!4v1678286847201!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="footer-icons">
+                <a href="https://www.facebook.com/people/JR-Auto-5962/100089838115283/"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/jrauto5962/"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.snapchat.com/add/jrauto.5962?share_id=Cp9OH98N4bs&locale=fr-FR"><i class="fa-brands fa-snapchat"></i></a>
+            </div>
+        </div>
+    </footer>
+</body
+<!-- JS pour le menu de navigation -->
+		<script type="text/javascript">
+	
+			const menuBtn = document.querySelector(".menu-btn")
+			const navigation = document.querySelector(".navigation")
+	
+			menuBtn.addEventListener("click", () => {
+				menuBtn.classList.toggle("active");
+				navigation.classList.toggle("active");
+			});
+		</script>
+</html>
+</html>
