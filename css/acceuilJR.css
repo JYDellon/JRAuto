@@ -210,6 +210,12 @@ footer img {
 footer {
     bottom: 0;
 }
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
 /* RESPONSIVE */
 @media (max-width: 1250px) {
     
